@@ -36,10 +36,10 @@ const Navbar = () => {
               </Link>
             ))}
           </div>
-          <Link href={'https://www.facebook.com/Suazo.Floor.Cover'}>
+          <Link target="_blank" href={'https://www.facebook.com/Suazo.Floor.Cover'}>
             <FaFacebookF className='text-lg ms-6 mr-3' />
           </Link>
-          <Link href={'https://www.instagram.com/suazofloorcover/'}>
+          <Link target="_blank" href={'https://www.instagram.com/suazofloorcover/'}>
             <FaInstagram className='text-xl mr-2' />
           </Link>
         </div>
@@ -89,10 +89,10 @@ const Navbar = () => {
 
               {/* Social Links */}
               <div className='flex items-center ms-5'>
-                <Link href={'https://www.facebook.com/ToscanoFamilyFarm'}>
+                <Link target="_blank" href={'https://www.facebook.com/ToscanoFamilyFarm'}>
                   <FaFacebookF className='text-xl mr-2' />
                 </Link>
-                <Link href={'https://www.instagram.com/toscanofamilyfarm/'}>
+                <Link target="_blank" href={'https://www.instagram.com/toscanofamilyfarm/'}>
                   <FaInstagram className='text-2xl' />
                 </Link>
               </div>

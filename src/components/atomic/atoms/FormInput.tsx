@@ -21,7 +21,8 @@ const FormInput: React.FC<FromInputProps> = ({
 }) => {
   return (
     <div className='flex flex-col mb-3 font-montserrat font-semibold'>
-      <label className='mb-1  lg:text-base text-sm'>{label}</label>
+      <label className='mb-1 flex flex-col  lg:text-base text-sm'>
+        {label}
       <Field
         as={as}
         id={id}
@@ -29,6 +30,7 @@ const FormInput: React.FC<FromInputProps> = ({
         placeholder={placeholder}
         className={`lg:py-3 py-2 px-3 rounded-3xl border border-black  focus:outline-orange-dark bg-white-tan text-sm lg:placeholder:text-sm placeholder:text-xs ${height}`}
       />
+      </label>
       <ErrorMessage
         name={errorText}
         component='div'

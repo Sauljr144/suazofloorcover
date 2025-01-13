@@ -4,9 +4,9 @@ import HeroTxt from "./HeroTxt"
 
 const Hero = ()=>{
     return(
-        <div id="home" className="container mx-auto mb-28 px-2">
+        <div id="home" className="container mx-auto mb-28 px-2 scroll-mt-[100px]">
                 <div  className='relative lg:h-[800px] h-[600px] w-full flex flex-col  justify-center lg:justify-end items-center lg:items-start'>
-                    <Image src={HomeBG} alt={""} style={{ objectFit: 'cover', objectPosition: 'bottom' }} fill className="rounded-3xl"/>
+                    <Image src={HomeBG} alt={"Dinning room with hardwood floor."} style={{ objectFit: 'cover', objectPosition: 'bottom' }} fill priority className="rounded-3xl"/>
                     <HeroTxt/>
                 </div>
                 <div className="flex justify-center items-center px-5 lg:px-40 text-center font-montserrat text-base lg:text-xl mt-28 leading-6 lg:leading-8">

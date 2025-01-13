@@ -36,10 +36,10 @@ const Footer = () => {
             ))}
           </div>
           <div className='flex mb-12'>
-            <Link href={'https://www.facebook.com/ToscanoFamilyFarm'}>
+            <Link target="_blank" href={'https://www.facebook.com/ToscanoFamilyFarm'}>
               <FaFacebookF className='lg:text-lg mr-2' />
             </Link>
-            <Link href={'https://www.instagram.com/toscanofamilyfarm/'}>
+            <Link target="_blank" href={'https://www.instagram.com/toscanofamilyfarm/'}>
               <FaInstagram className='text-lg lg:text-xl ' />
             </Link>
           </div>

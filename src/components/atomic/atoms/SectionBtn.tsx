@@ -1,5 +1,5 @@
 interface SectionProps{
-    id: string,
+    id?: string,
     label: string,
     bg?: string,
     margin?:string
