@@ -2,7 +2,7 @@ import Hardwood from '../../public/assets/images/harwood.jpg'
 import LVP from '../../public/assets/images/lvp.jpg'
 import Carpet from '../../public/assets/images/carpet.jpg'
 import Vinyl from '../../public/assets/images/vinyl.jpg'
-import Repair from '../../public/assets/images/repair.jpg'
+import Repair from '../../public/assets/images/repair-floor.jpg'
 
 const servicesImgs = [
     {
