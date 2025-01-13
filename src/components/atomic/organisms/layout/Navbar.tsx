@@ -19,7 +19,7 @@ const Navbar = () => {
             <Image
               src={SFCLogo}
               alt={'Suazo Floor Cover Logo'}
-              className='lg:w-20 w-16'
+              className='lg:w-24 w-16'
               priority
             />
           </Link>
