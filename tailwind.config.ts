@@ -8,9 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'montserrat': ['"Montserrat"', 'sans-serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'light-gray': '#F5F5F5'
       },
     },
   },
