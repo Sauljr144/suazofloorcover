@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ContactForm from './ContactForm';
 import SectionBtn from '../../atoms/SectionBtn';
 

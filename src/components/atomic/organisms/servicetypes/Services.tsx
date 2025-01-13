@@ -1,5 +1,4 @@
 import SectionBtn from "../../atoms/SectionBtn"
-import Hardwood from '../../../../../public/assets/images/harwood.jpg'
 import Card from "../../molecules/Card"
 import servicesImgs from "@/utils/servicesImgs"
 
